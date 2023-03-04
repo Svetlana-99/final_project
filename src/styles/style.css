@@ -1,0 +1,206 @@
+.app-wrapper {
+  font-family: sans-serif;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.header_container {
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+}
+.header {
+  display: flex;
+  max-width: 1140px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.title {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn_p {
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 6px 11px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+.button {
+  padding: 8px 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: transparent;
+  align-self: flex-end;
+}
+
+.form_container {
+  background: aliceblue;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 4px 4px 8px 0px rgb(34 60 80 / 20%);
+  padding: 16px;
+  margin-top: 100px;
+  border-radius: 8px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.btn-form {
+  padding: 5px 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: transparent;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.btn-form:hover {
+  background: white;
+}
+.input {
+  width: 95%;
+  padding: 5px 0 5px 5px;
+  padding: 5px;
+  margin: 5px 0px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.div_input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+  position: relative;
+}
+
+.div_input:last-of-type {
+  margin-bottom: 25px;
+}
+.btn_title {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 8px 0 0 5px;
+  cursor: pointer;
+  text-align: left;
+}
+.btn_title:hover {
+  text-decoration: underline;
+}
+.label_title {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 8px 0 20px 5px;
+}
+.display_none {
+  display: none;
+}
+.display_block {
+  display: block;
+}
+.error {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  color: red;
+  font-size: 12px;
+}
+.board {
+  padding-top: 16px;
+  display: grid;
+  grid-gap: 32px;
+  grid-template-columns: 1fr 1fr;
+}
+.task-form {
+  background: aliceblue;
+  box-shadow: 0 5px 10px rgb(154 160 185 / 5%),
+    0 15px 40px rgb(166 173 201 / 20%);
+  padding: 32px;
+  border-radius: 8px;
+  align-self: start;
+}
+.task_card {
+  position: relative;
+  background: aliceblue;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+  padding: 24px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.task_finished {
+  text-decoration: line-through;
+}
+
+.task_title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.task_description {
+  margin-bottom: 16px;
+}
+
+.time_tracker {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.timer_btn {
+  position: relative;
+  border-radius: 100%;
+  width: 22px;
+  height: 22px;
+  border: none;
+  margin-right: 8px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.timer_btn i {
+  color: #fff;
+}
+
+.timer_btn:disabled {
+  cursor: not-allowed;
+  background: gray;
+}
+
+.timer_btn_play {
+  background-color: forestgreen;
+}
+
+.timer_btn_stop {
+  background-color: crimson;
+}
+
+.task_date {
+  color: gray;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+.task_delete_btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid gray;
+  color: gray;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
